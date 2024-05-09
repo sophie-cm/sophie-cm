@@ -1,19 +1,19 @@
 body{
-	background-color: #393836;
+	background-color: #77a1b5;
 }
 
 ul{
-	color: black;
+	color: #1c2d34;
 }
 h3 {
-	color: navyblue;
+	color: #1c2d34;
 }
 
 h3, li, a, p {
-color: #FB9F89;
+color: #c2d34;
 }
 img {
-	border-color: darkgray;
+	border-color: #729eb2;
 	border-width: 5px;
 	border-style: solid;
 	border-radius: 10%;
@@ -21,3 +21,28 @@ img {
 a:hover {
 	color:white;
 }
+.topnav {
+   background-color: #5d8fa7;
+   overflow: hidden;
+}
+
+.topnav a {
+   float: left;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.topnav a:hover {
+   background-color: #33515f;
+   color: black;
+}
+
+.topnav a.active {
+   background-color: #507e91;
+   color: black;
+}
+
+
