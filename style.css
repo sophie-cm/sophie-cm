@@ -28,7 +28,7 @@ a:hover {
 
 .topnav a {
    float: left;
-   color: black;
+   color: white;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -37,12 +37,19 @@ a:hover {
 
 .topnav a:hover {
    background-color: #33515f;
-   color: black;
+   color: white;
 }
 
 .topnav a.active {
    background-color: #507e91;
-   color: black;
+   color: white;
 }
-
-
+.topnav{
+background-image:url("blue.jpg");
+}
+.nobubutton {
+   height: "100";
+   width:"200";
+   position:relative;
+   color: navy;
+}
